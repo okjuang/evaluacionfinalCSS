@@ -1,0 +1,148 @@
+/* cancelamos el estilo estandar*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin: auto;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+}
+
+.menu2{
+    list-style: none;
+    padding: 10px;
+    border: 5px;
+    margin-right: 15px;
+    border-radius: 30px;
+}
+
+.menu2:hover{
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    color: white;
+}
+
+h1{
+    letter-spacing: 8px;
+    font-size: 40px;
+    line-height: 150%;
+}
+
+.caja1{
+    width: 90%;
+    height: 55vh;
+    align-items: center;
+    background-color: rgb(2, 117, 40);
+    text-align: center;
+    margin: auto;
+}
+
+#textcaja1{
+    width: 100%;
+    padding-top: 20px;
+    height: 80vh;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.caja2{
+    display: flex;
+    width: 90%;
+    height: 55vh;
+    justify-content: space-around;
+    background-color: crimson;
+    margin: auto;
+}
+
+#imgcaja2{
+    width: 100%;
+}
+
+#alebrije1{
+    width: auto;
+    height: 100%;
+}
+
+
+#txcaja2{
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.caja3{
+    display: flex;
+    width: 90%;
+    height: 55vh;
+    justify-content: space-around;
+    background-color: crimson;
+    margin: auto;
+}
+
+#imgcaja3{
+    width: 50%;
+}
+
+#alebrije2{
+    width: auto;
+    height: 100%;
+
+}
+
+#txcaja3{
+    width: 100%;
+    padding-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+
+#linea{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+#redes{
+    width: 90%;
+    margin: auto;
+    justify-content: left;
+    padding-bottom: 15px;
+}
+
+#derechos{
+    width: 90%;
+    margin: auto;
+    justify-content: left;
+    padding-bottom: 25px;
+}
