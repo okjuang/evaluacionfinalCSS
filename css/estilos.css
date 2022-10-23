@@ -79,6 +79,10 @@ h1{
     margin: auto;
 }
 
+#linea{
+    text-decoration: underline;
+}
+
 #textcaja1{
     width: 100%;
     padding-top: 20px;
